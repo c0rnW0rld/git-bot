@@ -1,17 +1,38 @@
-const jsonfile = require('jsonfile');
-const moment = require('moment');
-const simpleGit = require('simple-git');
+import('random').then(random => {
+    const jsonfile = require('jsonfile');
+    const moment = require('moment');
+    const simpleGit = require('simple-git');
+    const FILE_PATH = './data.json';
 
-
-const FILE_PATH =  './data.json';
-
-const DATE = moment().subtract(1,'d').format();
-
-const data = {
+    const getRandomInt = (min, max) => {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      };
+    
+    const makeCommit = n => {
+    if (n===0) return simpleGit().push();
+    
+    const x = getRandomInt(0,54);
+    const y = getRandomInt(0,6)
+    
+    const DATE = moment().subtract(1,'y').add(1,'d').add(x,'w').add(y,'d').format();
+    
+    const data = {
     date : DATE
-}
-
-jsonfile.writeFile(FILE_PATH,data)
-
-//git commit --date=""
-simpleGit().add([FILE_PATH]).commit(DATE,{'--date':DATE}).push();
+    }
+    
+    console.log(DATE);
+    
+    jsonfile.writeFile(FILE_PATH,data , () => {
+    //git commit --date=""
+    
+    simpleGit().add([FILE_PATH]).commit(DATE,{'--date':DATE},
+    makeCommit.bind(this,--n));
+    });
+    }
+    
+    makeCommit(40)
+    
+    
+    }).catch(error => {
+    console.error('Dynamic import error:', error);
+    });
