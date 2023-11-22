@@ -17,13 +17,12 @@
 7. npm i random
 </br>
 
-# TO RUN
+# TO RUN:
 </br>
 8. node index.js
 </br>
 
 # CREDITS:
-</br>
 [<img src="https://github.com/akshaymarch7.png" width="60px;"/>](https://github.com/akshaymarch7)
 
 SOURCE VIDEO: [<img src=https://github.com/c0rnW0rld/git-bot/assets/90005162/c0dfa570-3798-404e-8766-fcea4de723eb/>](https://www.youtube.com/watch?v=2q--gA97caM)
