@@ -18,5 +18,5 @@ TO RUN
 
 CREDITS: [<img src="https://github.com/akshaymarch7.png" width="60px;"/>](https://github.com/akshaymarch7)
 
-SOURCE VIDEO: [<img src=![image](https://github.com/c0rnW0rld/git-bot/assets/90005162/dba31a6e-fc9d-4a63-b56f-5a1a48c6efd5)/>](https://www.youtube.com/watch?v=2q--gA97caM)
+SOURCE VIDEO: [<img src=https://github.com/c0rnW0rld/git-bot/assets/90005162/dba31a6e-fc9d-4a63-b56f-5a1a48c6efd5/>](https://www.youtube.com/watch?v=2q--gA97caM)
 
