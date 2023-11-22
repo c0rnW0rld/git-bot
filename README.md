@@ -16,9 +16,11 @@ INSTALL PACKAGES
 </br>
 7. npm i random
 </br>
+</br>
 TO RUN
 </br>
 8. node index.js
+</br>
 </br>
 CREDITS:
 </br>
