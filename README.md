@@ -1,6 +1,6 @@
 # git-bot
 
-STEPS TO RUN:
+# STEPS TO RUN:
 
 1. git clone https://github.com/c0rnW0rld/git-bot.git
 2. cd git-bot
@@ -8,7 +8,7 @@ STEPS TO RUN:
 4. </br>
 ![image](https://github.com/c0rnW0rld/git-bot/assets/90005162/17f10202-3eaa-4902-82ad-727d23ae6557)
 
-INSTALL PACKAGES
+# INSTALL PACKAGES
 </br>
 5. npm i jsonfile
 </br>
@@ -17,12 +17,12 @@ INSTALL PACKAGES
 7. npm i random
 </br>
 </br>
-TO RUN
+# TO RUN
 </br>
 8. node index.js
 </br>
 </br>
-CREDITS:
+# CREDITS:
 </br>
 [<img src="https://github.com/akshaymarch7.png" width="60px;"/>](https://github.com/akshaymarch7)
 
