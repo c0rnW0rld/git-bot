@@ -16,12 +16,12 @@
 </br>
 7. npm i random
 </br>
-</br>
+
 # TO RUN
 </br>
 8. node index.js
 </br>
-</br>
+
 # CREDITS:
 </br>
 [<img src="https://github.com/akshaymarch7.png" width="60px;"/>](https://github.com/akshaymarch7)
